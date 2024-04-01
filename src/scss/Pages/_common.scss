@@ -1,0 +1,22 @@
+.href-btn {
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+.font-15-400 {
+    font-family: 'Noto Sans CJK JP';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-15-500 {
+    font-family: 'Noto Sans CJK JP';
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
