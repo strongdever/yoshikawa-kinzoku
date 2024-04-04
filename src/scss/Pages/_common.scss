@@ -1,12 +1,108 @@
+.bread-crump {
+    margin-bottom: 7.2rem;
+
+    .container {
+        padding-top: 1.0rem;
+        padding-bottom: 1.0rem;
+        display: flex;
+        align-items: center;
+        column-gap: 1.0rem;
+    }
+
+    .link {
+        color: var(--font, #333);
+        font-family: $font_gothic;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.52px;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    i {
+        font-size: 1.0rem;
+    }
+
+    .current-page {
+        color: $black_color;
+        font-family: $font_gothic;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.52px;
+    }
+}
+
+.page-title {
+    position: relative;
+    display: block;
+    margin-bottom: 7.2rem;
+
+    .jp-text {
+        color: #333;
+        margin-bottom: 2.6rem;
+    }
+
+    .en-text {
+        font-family: "Montserrat";
+        color: #A8C001;
+    }
+}
+
 .href-btn {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    column-gap: 1.2rem;
+
+    img {
+        width: 1.2rem;
+        height: 1.7rem;
+    }
+}
+
+a,
+button {
     &:hover {
         opacity: 0.8;
         cursor: pointer;
     }
 }
 
+.red-color {
+    color: #FF0000 !important;
+}
+
+.font-12-500 {
+    font-family: 'Noto Sans JP';
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-13-500 {
+    font-family: 'Noto Sans JP';
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-14-500 {
+    font-family: 'Noto Sans JP';
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
 .font-15-400 {
-    font-family: 'Noto Sans CJK JP';
+    font-family: 'Noto Sans JP';
     font-size: 1.5rem;
     font-weight: 400;
     color: #282828;
@@ -14,9 +110,358 @@
 }
 
 .font-15-500 {
-    font-family: 'Noto Sans CJK JP';
+    font-family: 'Noto Sans JP';
     font-size: 1.5rem;
     font-weight: 500;
     color: #282828;
     line-height: 100%;
+}
+
+.font-17-500 {
+    font-family: 'Noto Sans JP';
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-18-400 {
+    font-family: 'Noto Sans JP';
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-18-500 {
+    font-family: 'Noto Sans JP';
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-20-400 {
+    font-family: 'Noto Sans JP';
+    font-size: 2.0rem;
+    font-weight: 400;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-20-500 {
+    font-family: 'Noto Sans JP';
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-20-700 {
+    font-family: 'Noto Sans JP';
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-23-500 {
+    font-family: 'Noto Sans JP';
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-24-500 {
+    font-family: 'Noto Sans JP';
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-24-600 {
+    font-family: 'Noto Sans JP';
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-24-700 {
+    font-family: 'Noto Sans JP';
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-28-700 {
+    font-family: 'Noto Sans JP';
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-30-500 {
+    font-family: 'Noto Sans JP';
+    font-size: 3.0rem;
+    font-weight: 500;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-30-700 {
+    font-family: 'Noto Sans JP';
+    font-size: 3.0rem;
+    font-weight: 700;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-32-600 {
+    font-family: 'Noto Sans JP';
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-35-700 {
+    font-family: 'Noto Sans JP';
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-40-700 {
+    font-family: 'Noto Sans JP';
+    font-size: 4.0rem;
+    font-weight: 700;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-46-700 {
+    font-family: 'Noto Sans JP';
+    font-size: 4.6rem;
+    font-weight: 700;
+    color: #282828;
+    line-height: 100%;
+}
+
+.font-50-600 {
+    font-family: 'Noto Sans JP';
+    font-size: 5.0rem;
+    font-weight: 600;
+    color: #282828;
+    line-height: 100%;
+}
+
+.news-list {
+    position: relative;
+    width: 100%;
+    display: block;
+
+    .news-item {
+        position: relative;
+        width: 100%;
+
+        &:last-child {
+            a {
+                border-bottom: 1px solid #CACACA;
+            }
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            position: relative;
+            padding: 2.4rem 0;
+            border-top: 1px solid #CACACA;
+
+            .date {
+                width: 16%;
+                font-family: "Montserrat";
+                color: #ADADAD;
+                flex-shrink: 0;
+            }
+
+            .category-wrapper {
+                width: 17%;
+                flex-shrink: 0;
+            }
+
+            .title {
+                font-family: "Noto Sans CJK JP";
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 1.6rem;
+    width: fit-content;
+    height: 2.4rem;
+    color: #FFF;
+    background: #999999;
+    border-radius: 90px;
+}
+
+.report-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    column-gap: 4.4rem;
+    row-gap: 2.6rem;
+
+    .report-item {
+        position: relative;
+        width: 100%;
+        display: block;
+
+        a {
+            position: relative;
+            width: 100%;
+            display: block;
+
+            .thumb {
+                display: block;
+                width: 100%;
+                height: auto;
+                aspect-ratio: 370 / 210;
+                object-fit: cover;
+                margin-bottom: 2.2rem;
+            }
+
+            .title {
+                line-height: 2.2rem;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
+.base-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    column-gap: 2.6rem;
+    row-gap: 2.6rem;
+
+    .base-item {
+        .category {
+            margin-bottom: 2.0rem;
+        }
+
+        .address {
+            line-height: 2.4rem;
+        }
+    }
+}
+
+.map-btn {
+    display: inline;
+    margin-left: 1.0rem;
+    color: #0066CC;
+    text-decoration: underline;
+}
+
+.spinner {
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 0.5rem dotted #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.load-more {
+    position: relative;
+    width: fit-content;
+    height: 4.0rem;
+    padding: 0.8rem 7.2rem;
+    display: flex;
+    column-gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+    background: #999999;
+
+    font-family: "Noto Sans JP";
+    font-size: 1.7rem;
+    color: #FFF;
+
+    margin: 7.5rem auto 5.4rem auto;
+
+    .spinner-wrapper {
+        opacity: 0;
+        position: absolute;
+        width: 2.6rem;
+        height: 2.6rem;
+        top: 50%;
+        left: 2.4rem;
+        transform: translateY(-50%);
+        transition: opacity 0.2s;
+    }
+}
+
+.custom-table {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+    row-gap: 0.4rem;
+    margin-bottom: 3.2rem;
+
+    .record {
+        width: 100%;
+        position: relative;
+        display: flex;
+        column-gap: 0.4rem;
+
+        .th {
+            width: 12%;
+            flex-shrink: 0;
+            color: #FFF;
+            background: #B7D100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .td {
+            width: 100%;
+            padding: 1.6rem;
+            line-height: 3.2rem;
+            border: 1px solid #ADADAD;
+        }
+    }
 }

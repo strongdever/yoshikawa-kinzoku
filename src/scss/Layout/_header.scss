@@ -3,8 +3,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: transparent;
-    padding: 2.4rem 0;
+    height: 12.6rem;
+    background: #FFF;
+    padding: 1.6rem 0 4.2rem 0;
     transition: all 0.4s ease-in-out;
     z-index: 996;
 
@@ -16,7 +17,7 @@
         position: relative;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
         margin-left: auto;
         margin-right: auto;
     }
@@ -150,7 +151,7 @@
                     align-items: center;
                     justify-content: center;
                     width: fit-content;
-                    font-family: $font_gothic;
+                    font-family: "Noto Sans CJK JP";
                     font-weight: 500;
                     font-size: 1.4rem;
                     line-height: 2.8rem;

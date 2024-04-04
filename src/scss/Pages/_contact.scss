@@ -19,6 +19,7 @@
 
 
 .main-form {
+    margin-bottom: 5.4rem;
     .form-wrapper {
         display: flex;
         flex-direction: column;
@@ -125,6 +126,25 @@
             color: #F00;
             line-height: 100%;
         }
+    }
+
+    input, textarea {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .btn-submit {
+        position: relative;
+        width: fit-content;
+        height: 4.0rem;
+        padding: 0 7.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        background: #999999;
+        border-radius: 90px;
+        margin: 1.2rem auto 0 auto;
     }
 }
 
