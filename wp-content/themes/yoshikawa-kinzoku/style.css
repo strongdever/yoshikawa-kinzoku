@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+Theme Name: 金属工業
+Author: Lovely-Dev
+Author URI: https://wordpress.org/
+Description: 新しい未来を発送し、発信する。溶接ひと筋100年 吉川金属工業。ヨシカワロード
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 1.0
+Text Domain: http://www.yoshikawa-kinzoku.co.jp/
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+/*
+ * Chrome renders extra-wide &nbsp; characters for the Hoefler Text font.
+ * This results in a jumping cursor when typing in both the Classic and block
+ * editors. The following font-face override fixes the issue by manually inserting
+ * a custom font that includes just a Hoefler Text space replacement for that
+ * character instead.
+ */
+
+#wpadminbar {
+  display: none;
+}
+
+body#bodyproducts .header .header-nav .nav-menu > li:first-child .menu-link::before {
+  transform: scale(1, 1);
+}
+body#bodycompany .header .header-nav .nav-menu > li:nth-child(2) .menu-link::before {
+  transform: scale(1, 1);
+}
+body#bodydata .header .header-nav .nav-menu > li:nth-child(3) .menu-link::before {
+  transform: scale(1, 1);
+}
+body#bodysustainability .header .header-nav .nav-menu > li:nth-child(4) .menu-link::before {
+  transform: scale(1, 1);
+}
+body#bodycontact .header .header-nav .nav-menu > li:nth-child(5) .menu-link::before {
+  transform: scale(1, 1);
+}
